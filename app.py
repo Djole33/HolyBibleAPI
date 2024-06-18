@@ -131,4 +131,4 @@ def get_verse_by_id(verse_id):
 
 # Start the Flask application on the specified port
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=port)
+    app.run(host='0.0.0.0', port=port)
